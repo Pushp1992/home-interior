@@ -1,0 +1,111 @@
+<div layout layout-wrap ng-cloak> <!-- Banner Image -->   
+    <img id="banner-image" ng-src="/src/img/contact-us/banner-image.png" alt="banner image">  
+</div>
+
+<div id="contact-us-banner-text">
+    <div>We are always there</div>
+    <div>To hear from you</div>
+    
+</div>
+
+<div layout="column" layout-padding layout-wrap ng-cloak id="our-services"> <!-- Contact US -->
+    <div class="center-div">
+        <h1>We can be reached</h1>
+        <h2>Through various mode of communication</h2>
+    </div>
+    <div layout layout-padding layout-margin layout-wrap ng-cloak>
+        <div flex class="md-whiteframe-5dp" flex-xs="85" flex-sm="65" flex-gt-sm="65" flex-gt-md="45" ng-cloak> <!-- Mail US @ -->
+            <div class="service-type">Mail us @ </div>
+            <md-content flex layout-padding>
+                <a href="mailto: {{catCtrl.cmpnyMail}}" style="color: black"> <!-- Company Email -->
+                    <md-button class="md-raised md-icon-button btn-mail">
+                        <i class="material-icons">email</i>
+                    </md-button>
+                </a>
+                <a href="mailto: {{catCtrl.cmpnyMail}}" style="color: black">Barun.sharma@BSinteriorsolution.com</a>
+                <br/> <br/>
+
+                <a href="mailto: {{catCtrl.personalMail}}" style="color: black"> <!-- personal Email -->
+                    <md-button class="md-raised md-icon-button btn-mail">
+                        <i class="material-icons">email</i>
+                    </md-button>
+                </a>
+                <a href="mailto: {{catCtrl.personalMail}}" style="color: black">Barun1232002@gmail.com</a>
+            </md-content>
+        </div>
+        <div flex class="md-whiteframe-5dp" flex-xs="85" flex-sm="65" flex-gt-sm="65" flex-gt-md="45" ng-cloak> <!-- Call US @ -->
+            <div class="service-type">Call us @ </div>
+            <md-content flex layout-padding>
+                <a href="tel:+91-943-141-8001" style="color: black">
+                    <md-button class="md-raised md-icon-button btn-call">
+                        <i class="material-icons">call</i>
+                    </md-button>
+                </a>
+                <a href="tel:+91-943-141-8001" style="color: black">+91-943-141-8001</a>
+                <br/><br/>
+
+                <a href="tel:+91-812-301-1119" style="color: black">
+                    <md-button class="md-raised md-icon-button btn-call">
+                        <i class="material-icons">call</i>
+                    </md-button>
+                </a>
+                <a href="tel:+91-812-301-1119" style="color: black">+91-812-301-1119</a>
+            </md-content>
+        </div>
+    </div>
+    <div layout layout-padding layout-margin layout-wrap ng-cloak>
+        <div flex class="md-whiteframe-5dp" flex-xs="85" flex-sm="65" flex-gt-sm="65" flex-gt-md="45" ng-cloak> <!-- Visit Us @ -->
+            <div class="service-type">Visit us @</div>
+            <md-content flex layout-padding>
+                <p class="paragraph-style">
+                    Ground Floor, No. 29 K 39, <br/>
+                    Nagappa Reddy Layout, B Narayanapura,<br/>
+                    D V G Post, Bengaluru (Bangalore) Urban,<br/>
+                    Karnatka (KA),<br/>
+                    PIN: 560016
+                </p>
+            </md-content>                
+        </div>
+        <div flex class="md-whiteframe-5dp" flex-xs="85" flex-sm="65" flex-gt-sm="65" flex-gt-md="45" ng-cloak> <!-- We are Social @ -->
+            <div class="service-type">We are social @</div>
+            <md-content flex layout-padding>                 
+                
+                <img ng-src="{{catCtrl.instagramImg}}" ng-click="catCtrl.openInstagram()" alt="instagram" class="socialImg">
+                
+                <img ng-src="{{catCtrl.facebookImg}}" ng-click="catCtrl.openFacebook()" alt="facebook" class="socialImg">
+                
+                <img ng-src="{{catCtrl.linkedinImg}}" ng-click="catCtrl.openLinkedin()" alt="linkedin" class="socialImg">
+
+                <img ng-src="{{catCtrl.whatsAppImg}}" ng-click="catCtrl.showWappNumber()" alt="whatsApp" class="socialImg"> <br/>
+
+                <img ng-src="{{catCtrl.joinWappGroupImg}}" ng-click="catCtrl.openWhatsapp($index)" alt="whatsAppGroup" id="joinWappGroupImg">
+                
+
+                <!-- <a href="tel:+91-812-301-1119" style="color: black">+91-812-301-1119</a> -->
+            </md-content>
+        </div>
+    </div>
+</div>
+
+<!-- Send us mail -->
+<div layout="column" layout-padding layout-margin layout-wrap ng-cloak>
+    <div flex class="md-whiteframe-1dp" flex-xs="85" flex-sm="65" flex-gt-sm="65" flex-gt-md="45" ng-cloak>
+        <form name="emailForm">
+            <md-input-container>
+                <label>Enter your Email:</label>
+                <input type="email" ng-model="catCtrl.userMail" aria-label="user-email">
+            </md-input-container> <br/>
+            <md-input-container>
+                <label>Enter Your Subject: </label>
+                <input ng-model="catCtrl.subject" aria-label="user-subject">
+            </md-input-container> <br/>
+            <md-input-container>
+                <label>Enter Your Message: </label>
+                <textarea ng-model="catCtrl.body" aria-label="user-message"></textarea>
+            </md-input-container> <br/>
+
+            <a href="mailto:{{catCtrl.mymail}}?subject={{catCtrl.subject}}"
+                    class="md-button md-raised md-primary md-hue-2 md-no-ink m">Send Mail</a>
+        </form>
+    </div>
+</div>

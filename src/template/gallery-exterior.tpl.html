@@ -1,0 +1,18 @@
+
+<div class="gallery-parallax"> <!-- interior gallery Parallax-->
+    <div layout="column" layout-padding layout-wrap ng-cloak id="our-services" > <!-- Interior Gallery -->
+    <div class="center-div">
+            <h2>OUR CREATIVE RESULTS</h2>
+            <h4>Our output is made of hard work and dedications</h4> 
+    </div>    
+        <div flex class="md-whiteframe-21dp" ng-cloak>
+            <div layout layout-padding layout-margin layout-wrap ng-cloak>         
+                <div ng-repeat="gallery in catCtrl.exterior track by $index">
+                    <a target="_blank" href="{{gallery.image}}">
+                        <img ng-src="{{gallery.image}}" style="width: 200px; height:200px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

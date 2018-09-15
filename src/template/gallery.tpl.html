@@ -1,0 +1,28 @@
+
+<div layout layout-wrap ng-cloak> <!-- Banner Image -->   
+    <img id="banner-image" ng-src="/src/img/gallery/banner-image.jpg"  alt="banner image">  
+</div>
+`
+<div id="banner-text">
+    <div>We are BS Enterprises</div> <br/>
+    <div>You buy Home</div>
+    <div>We make it Liveable</div>
+</div>
+
+<div layout="column" layout-padding layout-wrap ng-cloak id="our-services"> <!-- Our Services -->
+    <div class="center-div">
+        <h1>Our Work Collection</h1>
+    </div>
+    <div class="center-div" layout layout-padding layout-wrap ng-cloak>
+        <a ui-sref="BS-Enterprises.gallery.interior" class="md-button md-raised md-primary md-accent md-hue-2 md-no-ink m"><span class="menuCasing">Interior</span></a>
+        <a ui-sref="BS-Enterprises.gallery.exterior" class="md-button md-raised md-primary md-accent md-hue-2 md-no-ink m"><span class="menuCasing">Exterior</span></a>
+        <a ui-sref="BS-Enterprises.gallery.woodWork" class="md-button md-raised md-primary md-accent md-hue-2 md-no-ink m"><span class="menuCasing">Wood Work</span></a>
+        <a ui-sref="BS-Enterprises.gallery.flooring" class="md-button md-raised md-primary md-accent md-hue-2 md-no-ink m"><span class="menuCasing">Flooring</span></a>
+        <a ui-sref="BS-Enterprises.gallery.painting" class="md-button md-raised md-primary md-accent md-hue-2 md-no-ink m"><span class="menuCasing">Painting</span></a>
+    </div>
+
+    <div id="gallery-ui-view" layout layout-padding layout-margin layout-wrap ng-cloak> 
+        <div ui-view flex class="md-whiteframe-21dp" ng-cloak></div>
+    </div>
+
+    

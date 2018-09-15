@@ -1,0 +1,105 @@
+body {
+    font-size: 14px;
+    background-color: #EEE;
+    min-height: 100%;
+    height: auto;
+}
+/* .welcome-msg {
+    font-size: 3em;
+    font-family: monospace;
+    -webkit-animation-name: slideInUp;
+    -webkit-animation-duration: 4s;
+    animation-name: slideInUp;
+    animation-duration: 4s;
+
+   position: absolute;
+   z-index: 34px;
+   top: 550px;
+   left: 400px;
+    color: sienna;
+} */
+#toolBar{
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#footerBgColor{
+    background-color: black;
+    padding: 40px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+#logoProperties{
+    width: 70px;
+    height: 70px;
+}
+a:link{
+    word-spacing: 20px;
+    color: white;
+    text-decoration: none;
+}
+ #alignLogo{
+    display: inline-block;
+}
+#alignMenu{
+    padding-top: 35px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+}
+#cmpnyName{
+    padding-top: 15px;
+    margin-left: 70px;
+    display: inline-block;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textColor{
+    color: white;
+}
+.initial-parallax{
+    background-image: url("/src/img/carousel/p-carousel-wide.jpg");
+    /* Set a specific height */
+    min-height: 700px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-parallax {
+    background-image: url("/src/img/parallax/img-2.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center-div
+{
+  position: relative;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.service-type {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paragraph-style {
+    font-size: 16px;
+    font-weight: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

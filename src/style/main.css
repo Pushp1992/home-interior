@@ -1,0 +1,289 @@
+body {
+    font-size: 14px;
+    background-color: whitesmoke;
+    min-height: 100%;
+    height: auto;
+}
+
+/* HOME */
+md-card {
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+video {
+    height: 400px;
+}
+.m {
+    border-radius: 10px;
+}
+
+.pad > h2> h3{
+   margin-left: 60px;
+}
+
+.m-r {
+    position: relative;
+    width: 200px;
+    float: right;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 130px;
+}
+.workSummary {
+    background-color: black;
+}
+.workCount {
+    font-size: 3em;
+    color: rgb(255, 51, 0);
+}
+.client-img {
+    height: 200px;
+    width: 200px;
+}
+.work-image {
+    width: 300px;
+    height: 300px;
+}
+.p-t {
+    padding-top: 10em;
+}
+
+/* .welcome-msg {
+    font-size: 3em;
+    font-family: monospace;
+    -webkit-animation-name: slideInUp;
+    -webkit-animation-duration: 4s;
+    animation-name: slideInUp;
+    animation-duration: 4s;
+
+   position: absolute;
+   z-index: 34px;
+   top: 550px;
+   left: 400px;
+    color: sienna;
+} */
+
+/* #toolBar {   >>>
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} */
+#toolbarBgColor {
+    background-color: transparent;
+    /* background-color: rgba(240, 246, 247, 0.4); */
+    position: fixed;
+    min-height: 56px;
+}
+#headerContent {
+    margin: 10px;
+}
+#headerContent a {
+    margin: 0;
+}
+#headerContent a:hover {
+    text-decoration: none;
+    color: white;
+}
+#logo-div {
+    display: inline-block;
+}
+#title-pos {
+    display: inline-block;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: monospace;
+}
+/* #headerLogo {
+    display: inline-block;
+} */
+#logoImg {
+    padding: 0px;
+    position: relative;
+    max-height: 95px;
+}
+#headerTitle {
+    text-decoration: none;
+    color: white;
+    padding-left: 0.4em;
+    word-spacing: 3pt;
+    font-weight: 300;
+    vertical-align: middle;
+}
+#menu-pos {
+    display: inline-block;
+    position: absolute;
+    margin-right: 2em;
+    right: 0px;
+}
+.menuCasing {
+    text-transform: capitalize;
+}
+#footerBgColor {
+    background-color: black;
+    padding: 40px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+#logoProperties{
+    width: 70px;
+    height: 70px;
+}
+a:link{
+    /* word-spacing: 20px; */
+    color: white;
+    text-decoration: none;
+}
+
+/* #alignLogo{ >>>
+    display: inline-block;
+} */
+/* #alignMenu{ >>>
+    padding-top: 35px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+} */
+/* #cmpnyName{ >>>
+    padding-top: 15px;
+    margin-left: 70px;
+    display: inline-block;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+.textColor{
+    color: white;
+}
+/* this parallax is not in use */
+.initial-parallax{ 
+    background-image: url("/src/img/carousel/p-carousel-wide.jpg");
+    /* Set a specific height */
+    min-height: 700px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-parallax {
+    background-image: url("/src/img/parallax/img-2.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center-div
+{
+  position: relative;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.service-type {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.paragraph-style {
+    font-size: 16px;
+    font-weight: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* >>>>>>>>>>>>>>>>>> About US  <<<<<<<<<<<<<<<<<<*/
+#banner-image {
+    width: 100%;
+}
+#banner-text {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2em;
+    word-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+#brief-intro {
+    /* margin-top: 6em; */
+    padding: 6em;
+}
+.whiteframe-m-t {
+    margin-top: 3em;
+}
+.intro-line-2 {
+    margin-left: 4em;
+}
+.intro-line-3 {
+    margin-left: 8em;
+}
+.intro-line-4 {
+    margin-left: 12em;
+}
+.intro-line-1, .intro-line-2, .intro-line-3, .intro-line-4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+/* >>>>>>>>>>>>>>>>>>> Our SERVICES <<<<<<<<<<<<<<<<<<<< */
+
+
+/* >>>>>>>>>>>>>>>>>>>> CONTACT US <<<<<<<<<<<<<<<<<<<<< */
+
+#contact-us-banner-text {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+    font-size: 2em;
+    word-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+
+.socialImg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#joinWappGroupImg {
+    width: 400px;
+    height: 100px;
+    cursor: pointer;
+}
+
+/* >>>>>>>>>>>>>>>>>>>> GALLERY <<<<<<<<<<<<<<<<<<<<< */
+
+#gallery-ui-view {
+    padding: 20px;
+}
+
+/* responsive screen */
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: whitesmoke;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #headerContent {
+        flex-direction: column;
+    }
+}
